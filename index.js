@@ -6,7 +6,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res)=>{
-    res.send("Holà!");
+    res.send("salut!");
 })
 
 app.get('/greet-user/:name', (req, res)=>{
